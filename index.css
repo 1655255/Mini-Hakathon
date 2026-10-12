@@ -1,0 +1,150 @@
+*{
+background-color: #ffffff;
+}
+.nav{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    height: 35px;
+    width: 190px;
+    background-image: url(./logo.webp);
+    background-size: cover;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 22px;
+    color: BLACK;
+    gap: 25px;
+    cursor: pointer;    
+}
+.post{
+    height: 45px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: #683EF4 ;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 0;
+
+}
+.text{
+    color: #683EF4;
+    font-size: 80px;
+    margin-left: 43%;
+}
+.l2{
+    margin-left: -13%;
+    margin-top: -7%;
+}
+.button{
+    width: 330px;
+    height: 70px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: none;
+    margin-left: 850px;
+    margin-top: -60px;
+    gap: 10px;
+    background-color: gray;
+
+}
+.but1{
+    width: 150px;
+    height: 58px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    
+}
+.b1-t{
+    font-size: 23px;
+    background-color: transparent;
+    font-weight: 500;
+
+}
+
+.but2{
+    width: 142px;
+    height: 55px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    
+}
+.b2-t{
+    font-size: 24px;
+    background-color: transparent;
+    font-weight: 500;
+
+}
+
+.text1{
+    width: 1043px;
+    height: 64px;
+    font-size: 20px;
+    margin-left: 28%;
+}
+.text2{
+    width: 1043px;
+    height: 64px;
+    font-size: 20px;
+    margin-left: 52%;
+    margin-top: -50px;
+}
+.input{
+    width: 730px;
+    height: 40px;
+    border: 1px solid transparent;
+    margin-left: 35%;
+    margin-top: -40px;
+}
+.inp:focus{
+    outline: 2px solid  #683EF4;
+}
+.inp{
+    width: 689px;
+    height: 35px;
+    border: 1px solid gray;
+    font-size: 18px;
+    margin-top: 2%;
+}
+
+.findjobs{
+    width: 140px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #683EF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 900px;
+    margin-top: 100px;
+    cursor: pointer;
+    transition: transform 0.03s ease;
+}
+.findjobs:hover{
+    transform: translateY(-2px);}
+.find1{
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+
+}
